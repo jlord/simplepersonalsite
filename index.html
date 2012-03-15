@@ -25,9 +25,12 @@
 body {
 	text-align: center;
     /* background-image: -webkit-radial-gradient(circle, #fff, #efefef); */	
+	margin: 0px;
+	padding: 0px;
 	}
 p {
 	color: #333;
+	margin: 0px;
 	}
 a, a:visited {
 	text-decoration: none;
@@ -50,13 +53,11 @@ a:hover {
 	}
 #jlord {
 	position: relative;
-	background-size: 100px 100px;
-	background-repeat:no-repeat;
-	background-position: center;
 	}
 #jlord p {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
+	margin: 10px;
 	}
 .logo {
 	height: 100px;
@@ -64,45 +65,33 @@ a:hover {
 	}
 #main {
 	position: relative;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	border-top: 4px solid #333;
-	color: #000;
 	}
 #main p {
-	margin-left: 10px;
-	margin-right: 10px;
-	font-family: 'Cutive', serif;
+	margin: 10px;
+	font-family: 'Sorts Mill Goudy', serif;
 	font-weight: 400;
 	font-size: 13px;
 	text-align: left;
-	line-height: 20px;
 	}
-#links .email, #links .email a {
-	clear: both;
-	font-size: 11px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	padding-top: 4px;
-	color: #333;	
-	}
+
 #links {
 	position: relative;
 	height: 100px;
-	padding-top: 10px;
 	border-top: 1px dotted #333;
 	}
 #links ul {
 	float: left;
-	margin: 0;
-	padding: 0;	
+	margin: 0px;
+	padding: 0px;	
 	}
 #links li {
 	float: left;
+	padding-top: 10px;
 	list-style: none;
 	font-family: 'Oswald', sans-serif;	
 	font-size: 13px;
-	margin: 5px 2px 5px 10px;
+	margin: 0px 2px 0px 10px;
 	}
 #links li a {
 	display: block;
@@ -114,13 +103,24 @@ a:hover {
 	display: block;
 	background: #777;
 	color: #fff;
-	}
+	}	
+#links .email, #links .email a {
+		clear: both;
+		text-align: left;
+		font-size: 11px;
+		font-family: 'Sorts Mill Goudy', serif;
+		font-weight: 300;
+		padding-top: 10px;
+		margin-left: 5px;
+		color: #333;	
+		}
 </style>
 <body>
 <div id="container">
 	<div id="jlord"><img class="logo" src="jlord_script.png"/><p>HELLO</p></div>
 		<div id="main">
 			<p>I am a designer and 2012 Fellow at <a href="http://www.codeforamerica.org/" target="_blank">Code for America</a>, a non-profit using the power of the web to help city governments serve better. I like coffee, markup and making. A more complete website is in the works.</p>	
+	</div><!-- end main --> 
 	    <div id="links">
 			<ul>
 				<li><a href="http://www.jlord.us/jlord_portfolio.pdf" target="_blank">PORTFOLIO</a></li>
@@ -134,7 +134,7 @@ a:hover {
 			</ul>
 			<p class="email"><a href="mailto:to.jlord@gmail.com">to.jlord@gmail.com</a></p>
 		</div><!-- end links --> 
-	</div><!-- end main --> 
+	
 </div><!-- end container --> 
 </body>
 </html>
